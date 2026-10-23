@@ -1,6 +1,6 @@
-# Safful-Md
+# KULTINZ-MD
 
-Safful-Md is a WhatsApp multi-device bot powered by Baileys.
+Kultinz-Md is a WhatsApp multi-device bot powered by Baileys.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ npm start
 
 The first launch starts a new WhatsApp pairing flow. Once linked, normal
 restarts automatically retain the local credentials. To link a different
-account, stop the bot and remove only `lib/Safful_Baileys` before starting it.
+account, stop the bot and remove only `lib/kultinz_Baileys` before starting it.
 
 ## Ubuntu AWS deployment
 
@@ -33,7 +33,7 @@ connections and the local HTTP server is only for process diagnostics.
 4. Start the service and view the pairing code with:
 
    ```bash
-   sudo journalctl -u saffulbot-device1 -f
+   sudo journalctl -u kultinzbot-device1 -f
    ```
 
 5. After pairing, simply restart the service when needed; its local session is
